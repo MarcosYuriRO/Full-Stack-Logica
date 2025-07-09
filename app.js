@@ -58,5 +58,5 @@ if (pontuacao >= 100) {
 alert (`Você tem ${saldoConta} reais em sua conta.`);*/
 
 //Desafio Tópico 2 (05)
-/*let nome = prompt ("Digite o seu nome:")
-alert ("Boas vindas " + nome)*/
+/*let nome = prompt ("Digite o seu nome:");
+alert ("Boas vindas " + nome);*/

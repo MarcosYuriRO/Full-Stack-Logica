@@ -1,5 +1,5 @@
 // Projeto base Alura
-/*alert("Boas-vindas ao Jogo do Número Secreto!");
+alert("Boas-vindas ao Jogo do Número Secreto!");
 let numeroSecreto = 20;
 console.log (numeroSecreto)
 let chute
@@ -10,7 +10,7 @@ while (chute != numeroSecreto) {
     chute = prompt("Escolha um número entre 1 e 30");
 
     if (chute == numeroSecreto) {
-        alert("Isso aí! Você descobriu o Número Secreto " + numeroSecreto + " com " + tentativas + " tentativas." );
+        break;
     } else {
         if (chute > numeroSecreto) {
             alert ("O Número Secreto é menor que " + chute);
@@ -20,7 +20,11 @@ while (chute != numeroSecreto) {
         //tentativas = tentativas + 1;
         tentativas++;
     }
-};*/
+};
+
+let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa";
+alert("Isso aí! Você descobriu o Número Secreto " + numeroSecreto + " com " + tentativas + " " + palavraTentativa + ".");
+
 
 // Desafio Tópico 1 Alura (01 ao 07)
 /*alert ("Boas-vindas ao nosso site!");
@@ -97,7 +101,7 @@ while (numeroNatural >= 0) {
 
 //Desafio Tópico 3 (04)
 /*let numeroEscolhido = prompt ("Escolha um Número Natural");
-let contador = 0
+let contador = 0;
 
 while (contador <= numeroEscolhido) {
     console.log (contador);

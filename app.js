@@ -1,18 +1,26 @@
 // Projeto base Alura
-alert("Boas-vindas ao Jogo do Número Secreto!");
-let numeroSecreto = 29;
+/*alert("Boas-vindas ao Jogo do Número Secreto!");
+let numeroSecreto = 20;
 console.log (numeroSecreto)
-let chute = prompt("Escolha um número entre 1 e 30");
+let chute
+let tentativas = 1
 
-if (chute == numeroSecreto) {
-    console.log("Isso aí! Você descobriu o número secreto!");
-} else {
-    if (chute > numeroSecreto) {
-        alert ("O Número Secreto é menor que " + chute);
+//enquanto chute nao for igual ao n.s.;
+while (chute != numeroSecreto) {
+    chute = prompt("Escolha um número entre 1 e 30");
+
+    if (chute == numeroSecreto) {
+        alert("Isso aí! Você descobriu o Número Secreto " + numeroSecreto + " com " + tentativas + " tentativas." );
     } else {
-        alert ("O Número Secreto é maior que " + chute);
+        if (chute > numeroSecreto) {
+            alert ("O Número Secreto é menor que " + chute);
+        } else {
+            alert ("O Número Secreto é maior que " + chute);
+        }
+        //tentativas = tentativas + 1;
+        tentativas++;
     }
-};
+};*/
 
 // Desafio Tópico 1 Alura (01 ao 07)
 /*alert ("Boas-vindas ao nosso site!");
@@ -62,3 +70,36 @@ alert (`Você tem ${saldoConta} reais em sua conta.`);*/
 //Desafio Tópico 2 (05)
 /*let nome = prompt ("Digite o seu nome:");
 alert ("Boas vindas, " + nome);*/
+
+//Desafio Tópico 3 (01)
+/*let contador = 1;
+
+while (contador <= 10) {
+    alert (contador);
+    contador++;
+};*/
+
+//Desafio Tópico 3 (02)
+/*let contador = 10;
+
+while (contador >= 0) {
+    alert (contador);
+    contador--;
+};*/
+
+//Desafio Tópico 3 (03)
+/*let numeroNatural = prompt ("Digite um Número Natural");
+
+while (numeroNatural >= 0) {
+    console.log (numeroNatural);
+    numeroNatural--;
+};*/
+
+//Desafio Tópico 3 (04)
+/*let numeroEscolhido = prompt ("Escolha um Número Natural");
+let contador = 0
+
+while (contador <= numeroEscolhido) {
+    console.log (contador);
+    contador++;
+};*/
